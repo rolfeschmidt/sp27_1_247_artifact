@@ -6,7 +6,7 @@
 \usepackage[T1]{fontenc}
 \begin{document}
 \section*{Experiment Values For Paper Comparison}
-Generated from \texttt{cpp\_simulations/charts/data/improvement\_ratios.csv}. Each simulation run uses $10^5$ ticks.
+Generated from \texttt{/home/rolfe/privacyresearch/git/writing/sp27\_1\_247\_artifact/results/paper-data/improvement\_ratios.csv}. Each simulation run uses $10^5$ ticks.
 
 \subsection*{Values Used In The Paper Text}
 \small
@@ -15,20 +15,20 @@ Generated from \texttt{cpp\_simulations/charts/data/improvement\_ratios.csv}. Ea
 Quantity & Value & Where to compare \\
 \midrule
 Ticks per run & $10^5$ & Experiment methodology \\
-Agg-UniKEM fast-party gain at $10{:}1$ & 2.04$\times$ & Benefits of aggressive sending \\
-Agg-UniKEM fast-party gain at $15{:}1$ & 2.21$\times$ & UniKEM improvement cap discussion \\
-Agg-UniKEM fast-party gain at $20{:}1$ & 2.26$\times$ & UniKEM improvement cap discussion \\
+Agg-UniKEM fast-party gain at $10{:}1$ & 2.03$\times$ & Benefits of aggressive sending \\
+Agg-UniKEM fast-party gain at $15{:}1$ & 2.18$\times$ & UniKEM improvement cap discussion \\
+Agg-UniKEM fast-party gain at $20{:}1$ & 2.25$\times$ & UniKEM improvement cap discussion \\
 Agg-UniKEM slow-party gain at $10{:}1$ & 1.02$\times$ & Slow-party parity claim \\
-Agg-RUKEM fast-party gain over Opp-RKEM at $10{:}1$ & 6.06$\times$ & R(U)KEM family comparison \\
+Agg-RUKEM fast-party gain over Opp-RKEM at $10{:}1$ & 6.50$\times$ & R(U)KEM family comparison \\
 Agg-RUKEM slow-party gain over Opp-RKEM at $10{:}1$ & 1.00$\times$ & Slow-party parity claim \\
-Agg-RUKEM fast-party gain over Agg-UniKEM at $10{:}1$ & 2.55$\times$ & Aggressive protocol comparison \\
-Agg-UniKEM slow-party mean divided by Agg-RUKEM at $10{:}1$ & 0.85$\times$ & Aggressive protocol comparison \\
-Opp-UniKEM fast-party mean at $10{:}1$ & 592.3 & Main-text mean \\
-Agg-UniKEM fast-party mean at $10{:}1$ & 290.2 & Main-text mean \\
-Agg-UniKEM slow-party mean at $10{:}1$ & 587.6 & Main-text mean \\
+Agg-RUKEM fast-party gain over Agg-UniKEM at $10{:}1$ & 2.71$\times$ & Aggressive protocol comparison \\
+Agg-UniKEM slow-party mean divided by Agg-RUKEM at $10{:}1$ & 0.84$\times$ & Aggressive protocol comparison \\
+Opp-UniKEM fast-party mean at $10{:}1$ & 584.0 & Main-text mean \\
+Agg-UniKEM fast-party mean at $10{:}1$ & 287.1 & Main-text mean \\
+Agg-UniKEM slow-party mean at $10{:}1$ & 580.6 & Main-text mean \\
 Opp-RKEM fast-party mean at $10{:}1$ & 688.7 & Main-text mean \\
-Agg-RUKEM fast-party mean at $10{:}1$ & 113.7 & Main-text mean \\
-Agg-RUKEM slow-party mean at $10{:}1$ & 689.3 & Main-text mean \\
+Agg-RUKEM fast-party mean at $10{:}1$ & 106.0 & Main-text mean \\
+Agg-RUKEM slow-party mean at $10{:}1$ & 691.4 & Main-text mean \\
 \bottomrule
 \end{tabular}
 \subsection*{Per-Ratio Summary}
@@ -36,26 +36,26 @@ Agg-RUKEM slow-party mean at $10{:}1$ & 689.3 & Main-text mean \\
 \toprule
 Ratio & Uni fast & RU fast & RU/Uni fast & Uni/RU slow & RU total mean \\
 \midrule
-1 & 1.01 & 1.00 & 0.96 & 0.96 & 128.8 \\
-2 & 1.17 & 1.89 & 1.41 & 0.86 & 145.2 \\
-3 & 1.43 & 2.72 & 1.65 & 0.86 & 173.0 \\
-4 & 1.60 & 3.47 & 1.89 & 0.86 & 204.9 \\
-5 & 1.73 & 4.12 & 2.06 & 0.85 & 235.8 \\
-6 & 1.83 & 4.73 & 2.23 & 0.85 & 268.1 \\
-7 & 1.89 & 5.17 & 2.36 & 0.86 & 299.5 \\
-8 & 1.94 & 5.64 & 2.50 & 0.85 & 335.0 \\
-9 & 1.99 & 5.88 & 2.54 & 0.85 & 369.2 \\
-10 & 2.04 & 6.06 & 2.55 & 0.85 & 401.5 \\
-11 & 2.06 & 6.15 & 2.56 & 0.85 & 436.9 \\
-12 & 2.12 & 6.11 & 2.48 & 0.86 & 475.0 \\
-13 & 2.12 & 6.15 & 2.49 & 0.85 & 512.0 \\
-14 & 2.14 & 6.05 & 2.42 & 0.85 & 550.1 \\
-15 & 2.21 & 5.93 & 2.30 & 0.85 & 595.6 \\
-16 & 2.20 & 5.90 & 2.30 & 0.85 & 638.3 \\
-17 & 2.17 & 5.77 & 2.28 & 0.86 & 677.8 \\
-18 & 2.20 & 5.72 & 2.23 & 0.86 & 715.1 \\
-19 & 2.24 & 5.77 & 2.20 & 0.85 & 753.0 \\
-20 & 2.26 & 5.67 & 2.15 & 0.85 & 795.8 \\
+1 & 1.00 & 1.00 & 0.95 & 0.95 & 128.8 \\
+2 & 1.17 & 1.89 & 1.39 & 0.85 & 145.2 \\
+3 & 1.43 & 2.72 & 1.64 & 0.85 & 173.0 \\
+4 & 1.60 & 3.47 & 1.86 & 0.85 & 204.9 \\
+5 & 1.73 & 4.13 & 2.04 & 0.84 & 235.7 \\
+6 & 1.83 & 4.74 & 2.20 & 0.84 & 268.3 \\
+7 & 1.88 & 5.30 & 2.40 & 0.84 & 299.1 \\
+8 & 1.95 & 5.79 & 2.52 & 0.84 & 334.4 \\
+9 & 2.00 & 6.18 & 2.63 & 0.84 & 367.3 \\
+10 & 2.03 & 6.50 & 2.71 & 0.84 & 398.7 \\
+11 & 2.09 & 6.62 & 2.69 & 0.84 & 431.8 \\
+12 & 2.09 & 6.91 & 2.81 & 0.84 & 468.8 \\
+13 & 2.14 & 7.01 & 2.78 & 0.84 & 503.7 \\
+14 & 2.14 & 7.05 & 2.78 & 0.84 & 539.5 \\
+15 & 2.18 & 6.97 & 2.70 & 0.84 & 583.3 \\
+16 & 2.21 & 6.94 & 2.66 & 0.84 & 624.2 \\
+17 & 2.22 & 6.79 & 2.59 & 0.84 & 662.8 \\
+18 & 2.22 & 6.73 & 2.57 & 0.84 & 699.1 \\
+19 & 2.23 & 6.81 & 2.59 & 0.84 & 736.0 \\
+20 & 2.25 & 6.71 & 2.51 & 0.84 & 776.4 \\
 \bottomrule
 \end{longtable}
 \end{document}
