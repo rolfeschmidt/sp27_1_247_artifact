@@ -4,7 +4,6 @@ cpp_simulations/charts/out/
 results/paper-data/
 results/paper-plots/
 results/logs/
-results/experiment_numbers.tex
 results/one-run-*.csv
 results/cdf-atlas/data/
 results/cdf-atlas/plots/
