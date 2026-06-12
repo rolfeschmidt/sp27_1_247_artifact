@@ -1,4 +1,4 @@
-# SP 2027 Artifact
+# SP 2027 Paper 247 Artifact
 
 This repository is the standalone artifact for reproducing and checking the
 paper's experiment outputs. It contains:
