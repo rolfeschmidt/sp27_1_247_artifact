@@ -1,4 +1,4 @@
-# SP 2027 Paper 247 Artifact
+# Artifact - Sometimes You Need to be Aggressive: Improving Signal’s PQ Ratchet for Imbalanced Communications
 
 This repository is the standalone artifact for reproducing and checking the
 paper's experiment outputs. It contains:
