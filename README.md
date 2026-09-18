@@ -166,3 +166,11 @@ agg-rukem
 ```
 
 All simulation runs are deterministic for a fixed seed.
+
+## License
+
+This is an artifact for the paper "Sometimes You Need to be Aggressive: Improving Signal's PQ Ratchet for Imbalanced Communications" appearing in IEEE S&P 2027.
+
+It is licensed under the [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) license.
+
+The vendored lattice estimator at `lattice_estimator/martin_estimator/` is from https://github.com/malb/lattice-estimator and is included under the [LGPLv3+](https://www.gnu.org/licenses/lgpl-3.0.en.html) license.
